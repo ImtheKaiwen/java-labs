@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Shop shop = new Shop();
-        User user = new User("kerem", "keremkeskin@gmail.com", "123");
+        User user = new User("demo-user", "demo@example.com", "demo-password");
         user.setCart(new Cart());
 
         // Adding sample products
