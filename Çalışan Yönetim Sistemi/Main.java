@@ -7,9 +7,9 @@ public class Main {
         Menu menu = new Menu();
         Company company = new Company();
         boolean run = true;
-        Employee employee1 = new Manager("Kaiwen");
-        Employee employee2 = new Cleaner("Berat");
-        Employee employee3 = new SoftwareEngineer("Hayrünnisa");
+        Employee employee1 = new Manager("Alex");
+        Employee employee2 = new Cleaner("Taylor");
+        Employee employee3 = new SoftwareEngineer("Jordan");
         Employee[] employees = {employee1,employee2,employee3};
         for (Employee e: employees){
             company.add(e);
